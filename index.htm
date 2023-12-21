@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>clculator</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<h1 class="text-center">Calculator</h1>
+		<div class="calculator">
+			<div class="top-container">
+				<div class="clock">
+					<span class="hour"></span>:<span class="minute"></span>
+				</div>
+				<div class="status">
+					<img src="images/status.png" alt="Status" />
+				</div>
+			</div>
+			<div class="container flex flex-col items-center mx-auto m-w-20">
+				<div class="row">
+					<div class="input-container">
+						<input
+							style="background-color: black; color: #fff; font-size: 45px"
+							class="input"
+							type="text"
+							value="0"
+							readonly
+						/>
+					</div>
+				</div>
+				<div class="row">
+					<button class="button function">AC</button>
+					<button class="button function">+/-</button>
+					<button class="button function">%</button>
+					<button class="button operator division">÷</button>
+				</div>
+				<div class="row">
+					<button class="button number-7">7</button>
+					<button class="button number-9">9</button>
+					<button class="button number-8">8</button>
+					<button class="button operator multiplication">×</button>
+				</div>
+				<div class="row">
+					<button class="button number-4">4</button>
+					<button class="button number-5">5</button>
+					<button class="button number-6">6</button>
+					<button class="button operator subtraction">-</button>
+				</div>
+				<div class="row">
+					<button class="button number-1">1</button>
+					<button class="button number-2">2</button>
+					<button class="button number-3">3</button>
+					<button class="button operator addition">+</button>
+				</div>
+				<div class="row">
+					<button class="button number-0">0</button>
+					<button class="button decimal">.</button>
+					<button class="button operator equal">=</button>
+				</div>
+			</div>
+			<div class="bottom"></div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
